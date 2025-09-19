@@ -36,7 +36,7 @@ public class HelloApplication extends Application {
         btn2.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                System.out.println("Bye World!");
+                System.out.println("GoodBye World!");
                 txtMessage.setText("");
 
             }
